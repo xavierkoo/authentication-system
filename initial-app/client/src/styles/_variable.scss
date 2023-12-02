@@ -1,0 +1,38 @@
+$baseFont: 'Gotham Book';
+
+// Type Scales (Base 1rem = 16px, Scale: 1.25)
+$font-base-rem: 16px;
+
+$font-base-weight: 400;
+$font-semiheader-weight: 500;
+$font-header-weight: 700;
+$font-body-line-height: 1.5;
+$font-variable-line-height: calc(2px + 2ex + 2px);
+$font-size-tiny: clamp(0.57rem, 0.15vw + 0.54rem, 0.64rem);
+$font-size-caption: clamp(0.71rem, 0.18vw + 0.67rem, 0.8rem);
+$font-size-base: clamp(0.89rem, 0.23vw + 0.84rem, 1rem);
+
+$font-size-h3: clamp(1.11rem, 0.28vw + 1.05rem, 1.25rem);
+$font-size-h2: clamp(1.39rem, 0.36vw + 1.31rem, 1.56rem);
+$font-size-h1: clamp(1.74rem, 0.44vw + 1.64rem, 1.95rem);
+
+// Color (Example)
+$primaryBrandColor: #0078ce;
+$secondaryBrandColor: #fa9d00;
+$hoverColor: #161693;
+
+$light: var(--light, #f5f5f7);
+$dark: var(--dark, #1d1d1f);
+$lightBackground: var(--background, #ffffff);
+
+// $popupBackground: #00000080;
+// $primaryText: var(--primaryText);
+// $secondaryText: var(--secondaryText);
+// $primaryBrandColor: var(--primaryBrandColor);
+// $darkAccent: var(--darkAccent);
+// $lightAccent: var(--lightAccent);
+// $defaultBtn: var(--defaultBtn);
+// $successBtn: var(--successBtn);
+// $cancelBtn: var(--cancelBtn);
+// $notificationSuccess: #ccffcc;
+// $notificationError: #ffcccc;

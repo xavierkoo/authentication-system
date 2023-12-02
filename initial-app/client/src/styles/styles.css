@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "Gotham Book";
+  src: url("./fonts/Gotham Book.otf") format("opentype");
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Gotham Book";
+  font-weight: 400;
+  font-size: clamp(0.89rem, 0.23vw + 0.84rem, 1rem);
+  color: var(--dark, #1d1d1f);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gotham Book";
+  font-weight: 700;
+  line-height: calc(2px + 2ex + 2px);
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: clamp(1.74rem, 0.44vw + 1.64rem, 1.95rem);
+}
+
+h2 {
+  font-size: clamp(1.39rem, 0.36vw + 1.31rem, 1.56rem);
+}
+
+h3 {
+  font-size: clamp(1.11rem, 0.28vw + 1.05rem, 1.25rem);
+}
+
+p {
+  font-size: clamp(0.89rem, 0.23vw + 0.84rem, 1rem);
+}
+
+/* Height */
+.vh-80 {
+  height: 80vh;
+}
+
+/* Backgrounds */
+.bg-primary {
+  background-color: #0078ce;
+}
+
+.bg-secondary {
+  background-color: #fa9d00;
+}
+
+.navbar {
+  height: 5rem;
+}
+
+/* Text */
+.text-primary {
+  color: #0078ce;
+}
+
+.text-secondary {
+  color: #fa9d00;
+}
+
+.caption {
+  font-size: clamp(0.71rem, 0.18vw + 0.67rem, 0.8rem);
+}
+
+.font-tiny {
+  font-size: clamp(0.57rem, 0.15vw + 0.54rem, 0.64rem);
+}
+
+.bank-name {
+  color: #0078ce;
+}
+
+.bank-slogan {
+  color: #fa9d00;
+}
+
+/* Buttons */
+.cancelBtn {
+  background-color: white;
+  color: #0078ce;
+  border: 1px solid #0078ce;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.cancelBtn:hover {
+  background-color: lightslategray;
+  color: #ffffff;
+}
+
+.defaultBtn {
+  background-color: #0078ce;
+  color: #ffffff;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  background-color: #0078ce;
+  color: #ffffff;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.defaultBtn:hover {
+  background-color: #161693;
+  color: #ffffff;
+}
+.defaultBtn.disabled {
+  background-color: rgb(173, 173, 173);
+}
+.defaultBtn:hover {
+  background-color: #161693;
+  color: #ffffff;
+}
+
+.mfaBtn {
+  color: #0078ce;
+  border-color: #0078ce;
+  transition: background-color 0.3s;
+}
+@media (min-width: 320px) {
+  .mfaBtn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .mfaBtn {
+    width: 40%;
+  }
+}
+.mfaBtn:hover {
+  background-color: #161693;
+  color: #ffffff;
+}
+
+.seePasswordBtn {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0078ce;
+  opacity: 50%;
+  z-index: 999;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+/* Images */
+.bank-logo {
+  width: 35%;
+}
+
+.bank-navbar {
+  width: 6%;
+}
+
+.bank-sidebar {
+  width: 60%;
+}
+
+/* Misc */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  border-radius: 10px;
+  min-width: 600px;
+  min-height: 300px;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  margin-top: 10px;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.passwordDesign {
+  background-image: url("https://images.unsplash.com/photo-1505273471770-de630b5d5c5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
+@media (min-width: 320px) {
+  .passwordDesign {
+    font-size: calc(0.5em + 0.5vw);
+  }
+}
+@media (min-width: 766px) {
+  .passwordDesign {
+    font-size: calc(0.4em + 0.5vw);
+    background-size: cover;
+  }
+}
+@media (min-width: 2040px) {
+  .passwordDesign {
+    font-size: calc(0.4em + 0.5vw);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.passwordDesign .heightDesign {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.passwordDesign .boxInput {
+  background-color: #ffffff;
+}
+.passwordDesign .notification {
+  height: 80px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+/* Hamburger Menu */
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Start off-screen */
+  width: 300px;
+  height: 100%;
+  background-color: whitesmoke;
+  transition: 0.3s ease;
+  overflow-y: auto;
+}
+
+.sidebar {
+  padding: 20px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar li:hover {
+  background-color: #eee; /* Use a darker color here */
+  border-radius: 10px;
+}
+
+.nav-link {
+  padding: 10px;
+  transition: background-color 0.3s ease; /* Add a transition effect for a smoother hover */
+}
+
+.open {
+  left: 0; /* Slide in when open */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #0078ce;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Table */
+.table-header {
+  color: #0078ce;
+  font-weight: bolder;
+}

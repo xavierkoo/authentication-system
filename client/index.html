@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link id="dynamic-favicon" rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <title id="dynamic-title">POSB digibank online | POSB Singapore</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+      // Vite exposes environment variables on import.meta.env
+      const title = import.meta.env.VITE_APP_TITLE;
+      const icon = import.meta.env.VITE_APP_ICON;
+
+      if (title) {
+        document.title = title;
+      }
+      if (icon) {
+        const link = document.querySelector("link[rel*='icon']");
+        link.href = icon;
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+			window.global = window;
+			window.process = {
+				env: { DEBUG: undefined },
+			};
+			var exports = {};
+		</script>
+</html>
