@@ -1,5 +1,7 @@
 # Ascenda Loyalty Authentication System
 
+Note: Commit history is lost as the original repository was located in a third-party private organization.
+
 This repository presents a highly scalable solution for implementing an authentication system for Ascenda's rewards platform.
 
 ## Tech Stack
@@ -106,3 +108,12 @@ The code used for the AWS Lambda functions can be found in the `lambda` folder
 ![photo_2023-11-13 15 35 04](https://github.com/cs301-itsa/project-2023-24t1-project-2023-24t1-g2-t4/assets/86020207/607d1768-7f86-45eb-bc2b-29fb0e81d00b)
 ![photo_2023-11-13 15 35 07](https://github.com/cs301-itsa/project-2023-24t1-project-2023-24t1-g2-t4/assets/86020207/11d8d59f-1121-4291-9e70-0a7cba2f73e3)
 ![photo_2023-11-13 15 35 09](https://github.com/cs301-itsa/project-2023-24t1-project-2023-24t1-g2-t4/assets/86020207/a21c77fb-563d-425e-b6eb-201066492db4)
+
+## Contributors
+- [Xavier Koo](https://github.com/xavierkoo)
+- [Aaron Kwah](https://github.com/A2ron-k)
+- [Ray Quek](https://github.com/rayquekCW)
+- [Maurice Ho](https://github.com/HZKmaurice)
+- [Agrawal Sharad](https://github.com/Sharad-Agrawal)
+- [Vitto](https://github.com/vittotedja)
+- [Dennis Hardianto](https://github.com/DennisH18)
