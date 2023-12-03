@@ -1,8 +1,8 @@
-# Ascenda Loyalty Authentication System
+# Authentication System
 
 Note: Commit history is lost as the original repository was located in a third-party private organization.
 
-This repository presents a highly scalable solution for implementing an authentication system for Ascenda's rewards platform.
+This repository presents a highly scalable and secure solution for implementing an authentication system for financial institutions.
 
 ## Tech Stack
 
