@@ -109,6 +109,14 @@ The code used for the AWS Lambda functions can be found in the `lambda` folder
 ![photo_2023-11-13 15 35 07](https://github.com/cs301-itsa/project-2023-24t1-project-2023-24t1-g2-t4/assets/86020207/11d8d59f-1121-4291-9e70-0a7cba2f73e3)
 ![photo_2023-11-13 15 35 09](https://github.com/cs301-itsa/project-2023-24t1-project-2023-24t1-g2-t4/assets/86020207/a21c77fb-563d-425e-b6eb-201066492db4)
 
+## Screenshots
+Disclaimer: Prototype screenshots only, not for commercial use
+![Screenshot 2023-12-04 at 12 58 24 AM](https://github.com/xavierkoo/authentication-system/assets/86020207/73b3c4f7-84ee-468a-9405-f220c85a9ad0)
+![Screenshot 2023-12-04 at 1 01 39 AM](https://github.com/xavierkoo/authentication-system/assets/86020207/914b63a1-8cc4-4ebf-bc60-72ab23ab5511)
+![Screenshot 2023-12-04 at 1 01 54 AM](https://github.com/xavierkoo/authentication-system/assets/86020207/e87c6c82-0d97-46fe-8357-bea43d294f13)
+![Screenshot 2023-12-04 at 1 02 40 AM](https://github.com/xavierkoo/authentication-system/assets/86020207/6d3b87aa-e713-4f15-9482-0baa8da9362e)
+![Screenshot 2023-12-04 at 1 02 22 AM](https://github.com/xavierkoo/authentication-system/assets/86020207/c3d8a920-86aa-488e-afaa-3ff763c25e4b)
+
 ## Contributors
 - [Xavier Koo](https://github.com/xavierkoo)
 - [Aaron Kwah](https://github.com/A2ron-k)
